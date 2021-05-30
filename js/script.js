@@ -1,3 +1,4 @@
+
 var km = prompt("Numero Di Chilometri");
 var Age = prompt("Età del passaggero");
 
@@ -20,5 +21,13 @@ else{ if(Age >= 65 ) {
     }
 }
 
+if(Age < 18 ) {
+    document.getElementById("costo").innerHTML = risultatoMinore + " €";
 
+}
 
+else
+ {
+    document.getElementById("costo").innerHTML = costo + " €";
+    
+}
